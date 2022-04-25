@@ -1,3 +1,3 @@
-git-auguste
+Intro to git
 ===========
-test repo for learning git on auguste cohort, wu day01
+Test repo for learning git on auguste cohort, wu day01
