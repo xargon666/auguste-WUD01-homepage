@@ -1,7 +1,7 @@
 Intro to git
 ===========
 
-I am in the staging branch
+I am in the main branch
 
 ### git best practice
 * use the **present tense** for git commit messages e.g. `git commit -m "add index.html"`
