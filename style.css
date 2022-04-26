@@ -1,61 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Kreon:wght@700&family=Nobile&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cutive&family=Kreon:wght@700&family=Nobile&display=swap");
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --theme1: rgb(35, 111, 140);
+  --theme2: rgb(45, 137, 160);
+  --theme3: rgb(54, 172, 181);
+  --theme4: rgb(84, 210, 211);
 }
 /* Font Styling  */
 body {
-    font-family: 'Nobile', sans-serif;
+  font-family: "Nobile", sans-serif;
 }
 h1 {
-    font-family: 'Cutive', serif;
+  font-family: "Cutive", serif;
 }
 
 h2 {
-    font-family: 'Kreon', serif;
+  font-family: "Kreon", serif;
+  color: var(--theme4);
 }
 span {
-    font-style: italic;
+  font-style: italic;
 }
 
 /* Positioning */
 /* Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1vw;
-    width:100%;
-    background-color:darkslategray;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1vw;
+  width: 100%;
+  background-color: var(--theme1);
+  color: white;
 }
 
 header nav ul {
-    display:flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: underline;
+  text-decoration-color: var(--theme4);
 }
 
 header nav ul li {
-    padding:10px;
-    list-style-type: none;
+  padding: 10px;
+  list-style-type: none;
+  color: var(--theme4);
 }
 /* Main */
-main{
-    display:flex;
-    margin: 0 1vw;
+main {
+  display: flex;
+  margin: 0 1vw;
 }
 
 main article .image-container {
-    width:100%;
-    display:flex;
-justify-content: center;
-margin: 2em 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0;
+}
+
+main article ol li {
+    color:var(--theme4);
 }
 
 /* Footer */
-footer{
-    display:flex;
-    justify-content:space-between;
-    background-color: darkslategray;
-    padding: 10px 1vw;
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--theme2);
+  padding: 10px 1vw;
 }
