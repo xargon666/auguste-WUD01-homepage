@@ -41,7 +41,15 @@ header nav ul li {
 }
 /* Main */
 main{
+    display:flex;
     margin: 0 1vw;
+}
+
+main article .image-container {
+    width:100%;
+    display:flex;
+justify-content: center;
+margin: 2em 0;
 }
 
 /* Footer */
