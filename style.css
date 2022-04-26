@@ -38,6 +38,10 @@ header {
   color: white;
 }
 
+header a {
+    color:inherit;
+}
+
 header nav ul {
   display: flex;
   justify-content: space-between;
