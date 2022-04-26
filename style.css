@@ -1,7 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&family=Kreon:wght@700&family=Nobile&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+/* Font Styling  */
+body {
+    font-family: 'Nobile', sans-serif;
+}
 h1 {
-    color:red;
+    font-family: 'Cutive', serif;
 }
 
+h2 {
+    font-family: 'Kreon', serif;
+}
 span {
     font-style: italic;
+}
+
+/* Positioning */
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw;
+    width:100%;
+    background-color:darkslategray;
+    color: white;
+}
+
+header nav ul {
+    display:flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    padding:10px;
+    list-style-type: none;
+}
+/* Main */
+main{
+    margin: 0 1vw;
+}
+
+/* Footer */
+footer{
+    display:flex;
+    justify-content:space-between;
+    background-color: darkslategray;
+    padding: 10px 1vw;
 }
